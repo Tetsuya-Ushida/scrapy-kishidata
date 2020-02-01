@@ -10,7 +10,8 @@ import scrapy
 
 class KishiWorkItem(scrapy.Item):
     id = scrapy.Field()
-    name = scrapy.Field()
+    dani = scrapy.Field()
+    name_ja = scrapy.Field()
     name_en = scrapy.Field()
     birth_date = scrapy.Field()
     birth_place = scrapy.Field()
