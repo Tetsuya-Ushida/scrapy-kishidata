@@ -8,7 +8,12 @@
 import scrapy
 
 
-class KishidataItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class KishiWorkItem(scrapy.Item):
+    id = scrapy.Field()
+    name = scrapy.Field()
+    name_en = scrapy.Field()
+    birth_date = scrapy.Field()
+    birth_place = scrapy.Field()
+    master = scrapy.Field()
+    ryuoh = scrapy.Field()
+    order = scrapy.Field()
